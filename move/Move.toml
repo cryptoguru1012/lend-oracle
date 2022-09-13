@@ -1,0 +1,14 @@
+[package]
+name = 'ZeeOracle'
+version = '1.0.0'
+
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+
+[addresses]
+AptosFramework="0x1"
+zee_oracle="0xda9724a10e323b710f08087951e88b9b2818196f0159a111beb5a394d969416c"
